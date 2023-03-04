@@ -1,38 +1,44 @@
 .btn,
 a.btn {
-    display: inline-block;
-    background: #01996D;
-    height: 51px;
-    line-height: 51px;
-    padding-left: 50px;
-    padding-right: 50px;
-    color: white;
-    font-size: 20px;
-    font-weight: 400;
-    border-radius: 4px;
+  display: inline-block;
+  background: #01996d;
+  height: 51px;
+  line-height: 51px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 4px;
+  transition: all 0.2s ease;
 }
 
 .btn:hover,
 a.btn:hover {
-    opacity: 0.9;
-    color: white;
+  background: #00573f;
+  color: white;
+}
+
+.btn:active,
+a.btn:active {
+  transform: scale(0.96);
 }
 
 .btn-big,
 a.btn-big {
-    min-height: 65px;
-    padding-top: 8px;
+  min-height: 65px;
+  padding-top: 8px;
 }
 
 @media (max-width: 992px) {
-    .btn,
-    a.btn {
-        height: 65px;
-    }
-    .btn-big,
-    a.btn-big {
-        min-height: 85px;
-        padding-top: 18px;
-        font-size: 25px;
-    }
+  .btn,
+  a.btn {
+    height: 65px;
+  }
+  .btn-big,
+  a.btn-big {
+    min-height: 85px;
+    padding-top: 18px;
+    font-size: 25px;
+  }
 }
