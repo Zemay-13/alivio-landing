@@ -6,7 +6,6 @@
 }
 
 .home-content {
-    padding-top: 100px
   max-width: 440px;
 }
 
@@ -44,10 +43,10 @@
 }
 
 @media (max-width: 1299px) {
-    .home {
-      padding: 200px 0 20px 15px;
-      min-height: unset;
-    }
+  .home {
+    padding: 200px 0 20px 15px;
+    min-height: unset;
+  }
   .home-heading {
     font-size: 45px;
     line-height: 1, 2;
